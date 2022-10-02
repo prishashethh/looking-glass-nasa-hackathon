@@ -5,7 +5,7 @@
     </head>
     <body>
         <?php
-            $telescopes = scandir('telescope-images', 1);
+            $telescopes = scandir('telescope-images/jwst', 1);
             print_r($telescopes);
         ?>
     </body>
