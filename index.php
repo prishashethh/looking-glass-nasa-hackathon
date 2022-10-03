@@ -8,9 +8,9 @@
 <body>
     <div id="navbar">
         <ul id="nav">
-            <li class="item"><a>Filler</a></li>
-            <li class="item"><a>Filler</a></li>
-            <li class="item"><a>Filler</a></li>
+            <li class="item"><a href="welcome.html">Home</a></li>
+            <li class="item"><a>Description</a></li>
+            <li class="item"><a>Images</a></li>
         </ul>
     </div>
 
@@ -23,6 +23,13 @@
         <div class="options"><img id="pic_4" class="pics"/></div>
     </div>
 
+    <div id="modal">
+        <span id="close">X</span>
+        <div id="result"></div>
+        <div id="buttons">
+            <button id="again">Next Attempt</button>
+        </div>
+    </div>
 
 <?php
     $jwstPics = scandir('telescope-images/jwst', 1);
@@ -45,4 +52,5 @@
  const jwstPics = <?php echo json_encode($jwstPics); ?>;
 </script>
 <script src="index.js"></script>
+<script src="game-script.js"></script>
 </html>

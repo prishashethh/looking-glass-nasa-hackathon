@@ -17,10 +17,13 @@ img {
     right: 0;
     border: black solid 1px;
     background-color: white;
-    width: 80vw
+    width: 80vw;
+    z-index: 1;
 }
 
 li { 
+    font-family: sans-serif;
+    font-size: 20px;
     display: inline;
     padding-left: 10%;
     padding-right: 10%;
@@ -30,8 +33,14 @@ li {
 }
 
 li:hover {
-    opacity: 0.5;
+    opacity: 0.75;
+    background-color: lightgrey;
     cursor: pointer;
+}
+
+a {
+    text-decoration: underline;
+    color: black;
 }
 
 #grid {
@@ -53,7 +62,6 @@ li:hover {
     padding-top: 15vh;
     font-size: 24px;
     font-family: monospace;
-
 }
 
 .options {
@@ -70,3 +78,49 @@ li:hover {
     cursor: pointer;
     transform: scale(1.05, 1.05);
 }
+
+#modal {
+    background: #108DC7; 
+    background: -webkit-linear-gradient(to right, #EF8E38, #108DC7);  
+    background: linear-gradient(to right, #EF8E38, #108DC7); 
+    border: 5px black solid;
+    box-shadow: 10px 10px;
+    position: fixed;
+    margin: 10px auto auto auto;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 50%;
+    height: 20vh;
+    display: none;
+    font-family: monospace;
+  }
+  
+  #close {
+    float: right;
+    margin-right: 10px;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  
+  #result {
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    font-size: 24px;
+  }
+  
+  #buttons {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+  }
+  
+  #again {
+    background-color: white;
+    font-size: 15px;
+    font-style: italic;
+    font-family: monospace;
+  }
+  
