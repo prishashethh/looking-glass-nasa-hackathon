@@ -93,6 +93,7 @@
           <p>The Chandra X-ray Observatory is part of the NASA "great observatories" fleet with the Hubble Space Telescope, Compton Gamma Ray Observatory, and the Spitzer Space Telescope</p>
           <p>the observatory is managed by the Marshall Center at NASA Headquarters in D.C.</p>
           <p>Chandra was designed to help scientists understand the origin and evolution of our universe by using x-rays to observe hot regions of space with high magnetic fields where charge particles could collide</p>
+          <p>Chandra was launched on July 23, 1999</p>
           <p>considered to be a great innovation in x-ray astronomy technology</p>
           <p>it is 200 times higher in orbit than the Hubble, traveling 1/3 the way to the moon in each orbit.</p>
           <p>Is known to be the world's most powerful x-ray telescope with 8x greater resolution than previous x-ray telescopes by detecting sources 20x fainter</p>
@@ -100,7 +101,27 @@
           <p>The Chandra Observatory is approximately 1 billion times more powerful than the first X-ray telescope (which was released in 1963)</p>
           <p>Chandra primarily studies flaring stars, exploding stars, black holes, and enormous clouds of hot gas located in galaxy clusters</p>
           <p>The space mission to deploy Chandra (STS-93) was the first NASA shuttle mission to be commanded by a female #women in stem</p>
+          
+          <h2>here are some fun facts about the Juno telescope</h2>
+          <p>Juno was launched on August 5th, 2011 on an Atlas V-551 rocket</p>
+          <p>The telescope arrived at Jupiter on July 4th, 2016 after traveling 1,740 milion miles.</p>
+          <p>Juno's mission was to primarily understand the origin and evolution process of Jupiter by doing extensive searches for a solid planetary core, observing the auroras, measuring the water and ammonia in the depths of its' atmosphere, and mapping the magnetic field of the planet.</p>
+          <p>Juno orbited Jupiter on a 53-day polar orbit. It completeted its primary mission after 35 orbit</p>
+          <p>The Juno mission was extended until September 2025 (or the end of its life) to enable the spacecraft to continue research the Jovian sustem and conduct flybys of Europa and Io (the two largest moons of Jupiter)</p>
+          <p>Juno is a spinning, solar-powered spacecraft that uses a highly elliptical polar orbit (two rotations per minute) that is stable and easy to control. It is the first the first solar-powered spacecraft desgined by NASA to operate so far from the Sun</p>
+          <p>The spacecraft is 66 ft (20 meters) in diameter and 15 ft (4.5 meters) in height</p>
+          <p>Juno uses many scienfitic instruments including a gravity science magnetometer (used to study the structure of Jupiter through the graity field), a JunoCam (to take close up images in color), a microwave radiometer (to observe the atmosphere/oxygen), a UVS/JIRAM ultraviolet/infrared camera (to take images of the aurora and atmosphere), and JEDI/JADE/Waves to observe the electrical fields and particles and connect the auroras to the magnetic field)</p>
+
+          <h2>here are some fun facts about the Voyager Mission</h2>
+          <p>The Voyager mission involves twin spacecrafts known as Voyager 1 and Voyager 2, which were designed to explore parts of the outer solar system enivronment; past neighboring planets to the outer limits of the Sun's sphere and beyond</p>
+          <p>The main mission was to explore Jupiter and Saturn. The spacecrafts discovered active volcanoes on Io (one of Jupiter's largest moons) and new details about Saturn's rings</p>
+          <p>Voyager 1 entered interstellar space (regions between stars where material from deaths of nearby stars is found) in 2012, and Voyager 2 crossed into interstellar space in 2018</p>
+          <p>The Voyager 2 was launched on August 20, 1977 and Voyager 1 was launcehd on September 5, 1977</p>
+          <p>The spacecrafts' current project is the Voyager Interstellar Mission (VIM), which is desinged to observe the outer solar system environment and heliopause boundaries to gather more information about solar winds and interstellar field particles</p>
+          <p>Voyager 1 and 2 have explored all the giant outer planets of our solar system, 48 of their moons, and their rings/magnetic field systems</p>
+          <p>The original Voyager mission was planned to be four years, but the spacecrafts have currently been in space for 45 years. The extension of the mission was made possible through remote-control reprograming</p>
         </div>
+
         <!--
         <div class="row">
             <div class="column">
