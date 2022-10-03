@@ -15,6 +15,11 @@ body {
 
 #github_link {
   z-index: 1;
+  left: 10%;
+}
+
+#button1{
+  left: 30%
 }
 
 #particles-js, #parallax, .layer, .some-space, .some-more-space1 {
@@ -30,11 +35,11 @@ body {
 h1 {
   color: white;
     text-align: center;
-  font-size: 5em;
-  font-weight: 100;
+  font-size: 6em;
+  font-weight: 400;
   letter-spacing: 0.2em;
   position: absolute;
-  top: 40%;
+  top: 30%;
   left: 50%;
   -webkit-transform: translate3d(-50%, -50%, 0);
           transform: translate3d(-50%, -50%, 0);
@@ -47,7 +52,7 @@ h3 {
   font-weight: 450;
   letter-spacing: 0.1em;
   position: absolute;
-  top: 90%;
+  top: 7%;
   left: 50%;
   -webkit-transform: translate3d(-50%, -50%, 0);
           transform: translate3d(-50%, -50%, 0);
@@ -60,7 +65,20 @@ h4 {
   font-weight: 450;
   letter-spacing: 0.1em;
   position: absolute;
-  top: 80%;
+  top: 75%;
+  left: 50%;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+          transform: translate3d(-50%, -50%, 0);
+}
+
+h5 {
+  color: white;
+  text-align: center;
+  font-size: 1em;
+  font-weight: 450;
+  letter-spacing: 0.1em;
+  position: absolute;
+  top: 85%;
   left: 50%;
   -webkit-transform: translate3d(-50%, -50%, 0);
           transform: translate3d(-50%, -50%, 0);
@@ -87,6 +105,12 @@ a:hover {
 }
 
 .some-space {
+}
+
+  
+.button2 {
+  left: 65%;
+   
 }
 
 .some-more-space1 {
