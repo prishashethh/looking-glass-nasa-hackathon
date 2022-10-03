@@ -3,7 +3,7 @@
     <head>
         <title>Looking Glass</title>
         <meta charset="utf-8">
-        <link href="index.css" type="text/css" rel="stylesheet">
+        <link href="game.css" type="text/css" rel="stylesheet">
         <link href="nasa.ico" rel="icon" type="image/x-icon">
     </head>
 <body>
@@ -59,6 +59,6 @@
  const telePics = <?php echo json_encode($tele); ?>;
  const jwstPics = <?php echo json_encode($jwstPics); ?>;
 </script>
-<script src="index.js"></script>
+<script src="game.js"></script>
 <script src="game-script.js"></script>
 </html>
