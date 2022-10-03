@@ -16,7 +16,11 @@ for (let i = 0; i < spots.length; i++) {
 }
 
 document.getElementById("again").addEventListener("click", function() {
-    location.reload();
+    shufflePics();
+    modal.style.display = "none";
+    for (let i = 0; i < spots.length; i++) {
+        spots[i].style.opacity = "1";
+    }
 })
 
 document.getElementById("close").addEventListener("click", function() {

@@ -3,6 +3,7 @@
     <head>
         <title>Showcase</title>
         <meta charset="utf-8">
+        <link href="../nasa.ico" rel="icon" type="image/x-icon">
         <style type="text/css">
             #pic_grid {
                 width: 100%;

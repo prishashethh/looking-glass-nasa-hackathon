@@ -4,6 +4,7 @@
         <title>Looking Glass</title>
         <meta charset="utf-8">
         <link href="index.css" type="text/css" rel="stylesheet">
+        <link href="nasa.ico" rel="icon" type="image/x-icon">
     </head>
 <body>
     <div id="navbar">

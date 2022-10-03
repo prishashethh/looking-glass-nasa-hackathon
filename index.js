@@ -10,27 +10,27 @@ const pic4 = document.getElementById("pic_4");
 const spots = document.getElementsByClassName("options");
 const pics = document.getElementsByClassName("pics");
 
-const telescopesLen = telescopes.length - 2; // the directories . and .. are removed
-let lvlPics = [];
-let telePicNames = [];
+function shufflePics() {
+    const telescopesLen = telescopes.length - 2; // the directories . and .. are removed
+    let lvlPics = [];
+    let telePicNames = [];
 
-for (let i = 0; i < 3; i++) { // less than 3 because there are only 3 spots where the telescopes can vary, the 4th must be the jwst 
-    let firstIndexRand = Math.floor(Math.random() * telescopesLen);
-    let telePicsLen = telePics[firstIndexRand].length - 2; // the length of pics within that first index selection
-    let secIndexRand = Math.floor(Math.random() * telePicsLen);
-    if (lvlPics.includes(telePics[firstIndexRand][secIndexRand])) { // no duplicates
-        i--;
-        console.log("Duplicate");
-        continue;
+    for (let i = 0; i < 3; i++) { // less than 3 because there are only 3 spots where the telescopes can vary, the 4th must be the jwst 
+        let firstIndexRand = Math.floor(Math.random() * telescopesLen);
+        let telePicsLen = telePics[firstIndexRand].length - 2; // the length of pics within that first index selection
+        let secIndexRand = Math.floor(Math.random() * telePicsLen);
+        if (lvlPics.includes(telePics[firstIndexRand][secIndexRand])) { // no duplicates
+            i--;
+            console.log("Duplicate");
+            continue;
+        }
+    
+        let indexAt = telePics[firstIndexRand][secIndexRand].indexOf("-");
+        telePicName = telePics[firstIndexRand][secIndexRand].slice(0, indexAt);
+        telePicNames.push(telePicName);
+        lvlPics.push(telePics[firstIndexRand][secIndexRand]);
     }
     
-    let indexAt = telePics[firstIndexRand][secIndexRand].indexOf("-");
-    telePicName = telePics[firstIndexRand][secIndexRand].slice(0, indexAt);
-    telePicNames.push(telePicName);
-    lvlPics.push(telePics[firstIndexRand][secIndexRand]);
-}
-
-function shufflePics() {
     let jwstLen = jwstPics.length - 2; // jwstPics is a list of all pics taken by jwst, defined in index.php
     let rand = Math.floor(Math.random() * jwstLen); // between 0 and length of jwst pics
     console.log(jwstPics[rand]);

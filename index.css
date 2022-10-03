@@ -137,6 +137,10 @@ a {
     bottom: 10px;
     left: 20px;
   }
+
+  #buttons:hover {
+    box-shadow: 10px 5px;
+  }
   
   #again {
     background-color: white;
