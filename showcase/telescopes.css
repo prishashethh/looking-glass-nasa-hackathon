@@ -1,0 +1,39 @@
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+  
+  #grid {
+    margin: 20px auto;
+    width: 1000px;
+    height: 400px;
+    background-color: #FFF;
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-row: auto auto;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+  }
+    
+.telescopes {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    color: #FFF;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-family: sans-serif; 
+    border: black solid 4px;
+}
+
+.telescopes:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    transform: scale(1.05, 1.05);
+}
+
+a {
+    color: white;
+}

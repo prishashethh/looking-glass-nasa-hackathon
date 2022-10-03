@@ -8,9 +8,9 @@
 <body>
     <div id="navbar">
         <ul id="nav">
-            <li class="item"><a href="welcome.html">Home</a></li>
-            <li class="item"><a>Description</a></li>
-            <li class="item"><a>Images</a></li>
+            <a href="welcome.html"><li class="item">Home</li></a>
+            <a><li class="item">Description</li></a>
+            <a href="showcase/telescopes.html" target="_blank"><li class="item">Images</li></a>
         </ul>
     </div>
 
@@ -22,6 +22,13 @@
         <div class="options"><img id="pic_3" class="pics"/></div>
         <div class="options"><img id="pic_4" class="pics"/></div>
     </div>
+
+    <!--<div id="fact_grid">
+        <div class="facts"><p id="fact_1">Here</p></div>
+        <div class="facts"><p id="fact_2">Here</p></div>
+        <div class="facts"><p id="fact_3">Here</p></div>
+        <div class="facts"><p id="fact_4">Here</p></div>
+    </div>-->
 
     <div id="modal">
         <span id="close">X</span>
