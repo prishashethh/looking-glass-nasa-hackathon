@@ -15,6 +15,8 @@
         </ul>
     </div>
 
+    <div id="counter">Pts:<div id="number">0</div></div>
+
     <div id="question">Which image was taken by the James Webb Telescope?</div>
 
     <div id="grid">

@@ -1,10 +1,20 @@
 const modal = document.getElementById("modal");
 const result = document.getElementById("result");
+const number = document.getElementById("number");
+
+number.innerText = localStorage.getItem("score");
+
 
 for (let i = 0; i < spots.length; i++) {
     spots[i].addEventListener("click", function(e) {
         if (e.target.getAttribute("src").includes("jwst")) {
             result.innerText = "Yes that's correct! :)";
+            score = parseInt(localStorage.getItem("score"));
+            score += 1;
+            localStorage.setItem("score", score);
+            console.log(score);
+
+            number.innerText = score;
 
         } else {
             result.innerText = "Sorry but that's wrong :(";
@@ -37,3 +47,11 @@ function styling() {
         spots[i].style.opacity = "0.8";
     }
 }
+
+function runOnce() {
+    if (localStorage.getItem("ran") == null) {
+        localStorage.setItem("score", "0");
+        localStorage.setItem("ran", "true");
+    }
+
+} runOnce();

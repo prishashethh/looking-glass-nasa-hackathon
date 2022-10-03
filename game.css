@@ -36,6 +36,11 @@ img {
     box-shadow: 15px 10px;
 }
 
+#counter {
+  font-size: 48px;
+  position: fixed;
+}
+
 li { 
     font-family: sans-serif;
     font-size: 20px;
