@@ -3,14 +3,14 @@
     <head>
         <title>Looking Glass</title>
         <meta charset="utf-8">
-        <link href="index.css" type="text/css" rel="stylesheet">
+        <link href="game.css" type="text/css" rel="stylesheet">
         <link href="nasa.ico" rel="icon" type="image/x-icon">
     </head>
 <body>
     <div id="navbar">
         <ul id="nav">
-            <a href="welcome.html"><li class="item">Home</li></a>
-            <a><li class="item">Description</li></a>
+            <a href="index.html"><li class="item">Home</li></a>
+            <a href="lookingGlassDescription.html"><li class="item">Description</li></a>
             <a href="showcase/telescopes.html" target="_blank"><li class="item">Images</li></a>
         </ul>
     </div>
@@ -59,6 +59,6 @@
  const telePics = <?php echo json_encode($tele); ?>;
  const jwstPics = <?php echo json_encode($jwstPics); ?>;
 </script>
-<script src="index.js"></script>
+<script src="game.js"></script>
 <script src="game-script.js"></script>
 </html>
