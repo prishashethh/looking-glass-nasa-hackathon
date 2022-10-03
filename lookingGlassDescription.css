@@ -261,8 +261,13 @@ html{
 
  /*button positioning with columns and rows*/
  .row {
-    display: flex;
-    flex-wrap: wrap;
+    position: absolute; 
+    margin-right: auto;
+    margin-left: auto;
+    right: 0;
+    left: 0;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
     padding: 0 4px;
   }
   
