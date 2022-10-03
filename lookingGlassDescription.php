@@ -71,8 +71,35 @@
           <p>the building of the James Webb space telescope led to many major innovations in space technology including deployable sunshields, folding segmented mirrors, detectors, micro-shutters, mirror control, and lightweight optics</p>
           <p>the telescope can be abbreviated as "JWST" or "Webb"</p>
 
-          <h2>here are some fun facts about the Hubble Telescope</h2>
-          <p></p>
+          <h2>here are some fun facts about the Hubble Telescope!</h2>
+          <p>The Hubble Space Telescope was launched on April 24, 1990</p>
+          <p>The preliminary steps to concieve the Hubble mission began in he 1940s</p>
+          <p>Scientists have been able to use Hubble data to determine the age of the universe and distinguish changes that have occurred in our solar system, establishing the telescope as one of 'humanity's greatest scientific instruments</p>
+          <p>The first Hubble image was taken a month after its deployment on May 20</p>
+          <p>For its time period, Hubble telescope images were approximately 50 percent clearer than ground-based images</p>
+          <p>Hubble telescope helped scientists identify unprecedented elements from the early universe</p>
+
+          <h2>here are some fun facts about the Spitzer Space Telescope!</h2>
+          <p>The Spitzer Space Telescope is the last mission in the Great Observatories Program launched by NASA</p>
+          <p>The telescope was designed to detect infrared radiation (mostly heat radiation)</p>
+          <p>It is mostly made up of two major parts: The spacecraft (designed to control the telescope and communicate scientific data gathered) and the Cryogenic Telescope Assembly (an 85cm telescope built in with three other scientific instruments)</p>
+          <p>The Spitzer telescope discovered the first exoplanet weather map using heat radiation</p>
+          <p>The telescope enabled scientists to view dusty stellar nurseries, extrasolar planets, the centers of galaxies, newly formed planetary systems, failed stars, and organic molecules from other potential other planets with life; regions that cannot be seen through optical telescopes</p>
+          <p>The telescope's 'cold mission' lasted for 5.5 years, before shifting to the 'warm mission' for 11 years until it became renamed as the 'Spitzer Final Voyage'</p>
+          <p>Spitzer was launched on August 25, 2003 using a Delta II rocket</p>
+          <p>The telescope discovered a giant ring of Saturn and a system of Earth-sized planets approximately 40 light years away.</p>
+
+          <h2>here are some fun facts about the Chandra X-ray Obseratory </h2>
+          <p>The Chandra X-ray Observatory is part of the NASA "great observatories" fleet with the Hubble Space Telescope, Compton Gamma Ray Observatory, and the Spitzer Space Telescope</p>
+          <p>the observatory is managed by the Marshall Center at NASA Headquarters in D.C.</p>
+          <p>Chandra was designed to help scientists understand the origin and evolution of our universe by using x-rays to observe hot regions of space with high magnetic fields where charge particles could collide</p>
+          <p>considered to be a great innovation in x-ray astronomy technology</p>
+          <p>it is 200 times higher in orbit than the Hubble, traveling 1/3 the way to the moon in each orbit.</p>
+          <p>Is known to be the world's most powerful x-ray telescope with 8x greater resolution than previous x-ray telescopes by detecting sources 20x fainter</p>
+          <p>Chandra is able to observe x-rays from gas clouds that take over 5 million light years to travel through.</p>
+          <p>The Chandra Observatory is approximately 1 billion times more powerful than the first X-ray telescope (which was released in 1963)</p>
+          <p>Chandra primarily studies flaring stars, exploding stars, black holes, and enormous clouds of hot gas located in galaxy clusters</p>
+          <p>The space mission to deploy Chandra (STS-93) was the first NASA shuttle mission to be commanded by a female #women in stem</p>
         </div>
         <!--
         <div class="row">
