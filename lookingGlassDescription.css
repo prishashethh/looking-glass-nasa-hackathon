@@ -84,6 +84,14 @@ html{
    background-attachment: fixed;
    background-repeat: no-repeat;
  }
+ .banner-area h1{
+    padding-top: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: 40px;
+    font-family: 'Gemuni Libre', sans-serif;
+    color: #fff;
+ }
  .banner-area h2{
    padding-top: 5%;
    margin-left: 2%;
@@ -102,11 +110,13 @@ html{
    margin-left: 5cm;
    margin-right: 5cm;
    padding-top: 2%;
+   padding-bottom: 5%;
  }
 /* Container needed to position the button. Adjust the width as needed */
 .containerJWST {
     padding-top: 2%;
     padding-left: 3%;
+    padding-bottom: 5%;
     position: relative;
     width: 70%;
   }
@@ -147,6 +157,7 @@ html{
 .containerHubble {
     padding-top: 2%;
     padding-left: 8%;
+    padding-bottom: 5%;
     position: relative;
     width: 70%;
   }
@@ -186,6 +197,7 @@ html{
 .containerChandra {
     padding-top: 2%;
     padding-left: 23%;
+    padding-bottom: 5%;
     position: relative;
     width: 70%;
   }
@@ -223,7 +235,8 @@ html{
  /* spitzer button */
 .containerSpitzer {
     padding-top: 2%;
-    padding-left: 23%;
+    padding-left: 3%;
+    padding-bottom: 5%;
     position: relative;
     width: 70%;
   }
@@ -259,15 +272,128 @@ html{
     opacity: 0.7;
  }
 
+ /* spitzer button */
+.containerSpitzer {
+    padding-top: 2%;
+    padding-left: 8%;
+    padding-bottom: 5%;
+    position: relative;
+    width: 70%;
+  }
+  
+  /* Make the image responsive */
+  .containerSpitzer img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Style the button and place it in the middle of the container/image */
+  .containerSpitzer .spitzerButton {
+    padding-top: 2%;
+    padding-left: 5%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #caefff;
+    opacity: 0.7;
+    color: #FFF;
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 18px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .containerSpitzer .spitzerButton:hover {
+    background-color: #2C5364;
+    opacity: 0.7;
+ }
+ /* juno button */
+.containerJuno {
+    padding-top: 2%;
+    padding-left: 23%;
+    padding-bottom: 5%;
+    position: relative;
+    width: 70%;
+  }
+  
+  /* Make the image responsive */
+  .containerJuno img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Style the button and place it in the middle of the container/image */
+  .containerJuno .JunoButton {
+    padding-top: 2%;
+    padding-left: 5%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #caefff;
+    opacity: 0.7;
+    color: #FFF;
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 18px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .containerJuno .JunoButton:hover {
+    background-color: #2C5364;
+    opacity: 0.7;
+ }
+ /* voyager button */
+.containerVoyager {
+    padding-top: 2%;
+    padding-left: 23%;
+    padding-bottom: 5%;
+    position: relative;
+    width: 70%;
+  }
+  
+  /* Make the image responsive */
+  .containerVoyager img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Style the button and place it in the middle of the container/image */
+  .containerVoyager .VoyagerButton {
+    padding-top: 2%;
+    padding-left: 5%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #caefff;
+    opacity: 0.7;
+    color: #FFF;
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 18px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .containerVoyager .voyagerButton:hover {
+    background-color: #2C5364;
+    opacity: 0.7;
+ }
+
  /*button positioning with columns and rows*/
  .row {
-    position: absolute; 
-    margin-right: auto;
-    margin-left: auto;
-    right: 0;
-    left: 0;
-    display: grid;
-    grid-template-columns: auto auto auto auto auto auto;
+    display: flex;
+    flex-wrap: wrap;
     padding: 0 4px;
   }
   
@@ -300,7 +426,7 @@ html{
     }
   }*/
   /*end of button positioning*/
- .content-area{
+/* .content-area{
    width: 100%;
    position: relative;
    top: 700px;
@@ -346,8 +472,7 @@ html{
  li{
    display: inline;
  }
- /*Home Page End*/
- /*Learn More Page Start*/
+
  .learn-more h1{
    padding-top: 50px;
    font-family: 'Josefin Sans', sans serif;
@@ -458,8 +583,7 @@ html{
    padding-bottom: 15px;
    text-align: center;
  }
- /*Learn More Page End*/
- /*Take Action Page Start*/
+ 
  .take-action h1{
    padding-top: 50px;
    font-family: 'Josefin Sans', sans serif;
