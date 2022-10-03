@@ -13,6 +13,10 @@ body {
           user-select: none;
 }
 
+#github_link {
+  z-index: 1;
+}
+
 #particles-js, #parallax, .layer, .some-space, .some-more-space1 {
   height: 100%;
   position: absolute;
