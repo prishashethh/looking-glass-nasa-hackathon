@@ -4,9 +4,7 @@ Light Purple Haze (slideUpThing Background Color) #EAE7FA
 Periwinkle (main background color) #838BC2
 Lilac Purple Light (extra background color option) #C3C7DF
 */
-html{
-    background: #EAE7FA;
- }
+
  *{
    margin: 0;
    padding: 0;
@@ -15,7 +13,7 @@ html{
    text-align: center;
  }
  /*Home page Start*/
- /*.navBar{
+ .navBar{
    display: flex;
    justify-content: space-between;
  
@@ -64,13 +62,12 @@ html{
    color: #fff;
    letter-spacing: 4px;
    margin: 0 10px; 
- }*/
+ }
  .banner-area{
    width: 100%;
    height: 100%;
-   position: fixed;
    top: 100px;
-  padding-bottom: 500px;
+   padding-bottom: 500px;
    background:
          linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
          /*linear-gradient(
@@ -81,15 +78,14 @@ html{
    -webkit-background-size: cover;
    background-size: cover;
    background-position: center center;
-   background-attachment: fixed;
-   background-repeat: no-repeat;
+   background-repeat: repeat;
  }
  .banner-area h1{
     padding-top: 5%;
     margin-left: 2%;
     margin-right: 2%;
     font-size: 40px;
-    font-family: 'Gemuni Libre', sans-serif;
+    font-family: 'Gemunu Libre', sans-serif;
     color: #fff;
  }
  .banner-area h2{
@@ -105,7 +101,6 @@ html{
    font-size: 23px;
    line-height: 30px;
    color: #fff;
-   text-shadow: 2px 2px 4px #000000;
    font-family: 'Gemunu Libre', sans-serif;
    margin-left: 5cm;
    margin-right: 5cm;
