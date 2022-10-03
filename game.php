@@ -9,9 +9,9 @@
 <body>
     <div id="navbar">
         <ul id="nav">
-            <a href="index.html"><li class="item">Home</li></a>
-            <a href="lookingGlassDescription.html"><li class="item">Description</li></a>
-            <a href="showcase/telescopes.html" target="_blank"><li class="item">Images</li></a>
+            <a href="index.php"><li class="item">Home</li></a>
+            <a href="lookingGlassDescription.php"><li class="item">Description</li></a>
+            <a href="showcase/telescopes.php" target="_blank"><li class="item">Images</li></a>
         </ul>
     </div>
 
